@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="16" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53266" started-at="2020-07-28T15:36:25Z" finished-at="2020-07-28T15:37:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53266" started-at="2020-07-28T15:36:25Z" finished-at="2020-07-28T15:37:18Z">
+      <class name="com.quantInsti.base.TestBase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.quantInsti.base.TestBase@1fe2924]" name="setUp" is-config="true" duration-ms="28370" started-at="2020-07-28T21:05:57Z" finished-at="2020-07-28T21:06:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.quantInsti.base.TestBase@1fe2924]" name="tearDown" is-config="true" duration-ms="1453" started-at="2020-07-28T21:07:18Z" finished-at="2020-07-28T21:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.quantInsti.base.TestBase -->
+      <class name="com.quanInsti.tests.CartPage">
+        <test-method status="PASS" signature="getCourseNamesAndCount()[pri:5, instance:com.quanInsti.tests.CartPage@b494a6]" name="getCourseNamesAndCount" duration-ms="351" started-at="2020-07-28T21:07:04Z" finished-at="2020-07-28T21:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCourseNamesAndCount -->
+        <test-method status="PASS" signature="getPriceDetails()[pri:6, instance:com.quanInsti.tests.CartPage@b494a6]" name="getPriceDetails" duration-ms="105" started-at="2020-07-28T21:07:04Z" finished-at="2020-07-28T21:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPriceDetails -->
+        <test-method status="PASS" signature="viewCourseDetails()[pri:7, instance:com.quanInsti.tests.CartPage@b494a6]" name="viewCourseDetails" duration-ms="7484" started-at="2020-07-28T21:07:04Z" finished-at="2020-07-28T21:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCourseDetails -->
+        <test-method status="PASS" signature="removeCourse()[pri:8, instance:com.quanInsti.tests.CartPage@b494a6]" name="removeCourse" duration-ms="189" started-at="2020-07-28T21:07:12Z" finished-at="2020-07-28T21:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeCourse -->
+        <test-method status="PASS" signature="applyCoupon()[pri:9, instance:com.quanInsti.tests.CartPage@b494a6]" name="applyCoupon" duration-ms="665" started-at="2020-07-28T21:07:12Z" finished-at="2020-07-28T21:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applyCoupon -->
+        <test-method status="PASS" signature="signOut()[pri:10, instance:com.quanInsti.tests.CartPage@b494a6]" name="signOut" duration-ms="5834" started-at="2020-07-28T21:07:12Z" finished-at="2020-07-28T21:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+      </class> <!-- com.quanInsti.tests.CartPage -->
+      <class name="com.quanInsti.tests.CoursePage">
+        <test-method status="PASS" signature="getCourseDetails()[pri:3, instance:com.quanInsti.tests.CoursePage@6c3152]" name="getCourseDetails" duration-ms="233" started-at="2020-07-28T21:06:58Z" finished-at="2020-07-28T21:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCourseDetails -->
+        <test-method status="PASS" signature="clickOnEnrollNow()[pri:4, instance:com.quanInsti.tests.CoursePage@6c3152]" name="clickOnEnrollNow" duration-ms="5165" started-at="2020-07-28T21:06:58Z" finished-at="2020-07-28T21:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEnrollNow -->
+      </class> <!-- com.quanInsti.tests.CoursePage -->
+      <class name="com.quanInsti.tests.LoginPage">
+        <test-method status="PASS" signature="loginAs()[pri:1, instance:com.quanInsti.tests.LoginPage@bc05a6]" name="loginAs" duration-ms="9147" started-at="2020-07-28T21:06:25Z" finished-at="2020-07-28T21:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAs -->
+        <test-method status="PASS" signature="selectOptionFromMenu()[pri:2, instance:com.quanInsti.tests.LoginPage@bc05a6]" name="selectOptionFromMenu" duration-ms="24013" started-at="2020-07-28T21:06:34Z" finished-at="2020-07-28T21:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectOptionFromMenu -->
+      </class> <!-- com.quanInsti.tests.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
