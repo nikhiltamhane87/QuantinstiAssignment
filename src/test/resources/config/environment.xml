@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mode : 'debug' or '' useGrid : 'true' or 'false', if mode == 'debug', it would works locally. 
+<root mode="" useGrid="true" defaultBrowser="chrome" defaultBrowserVersion="" defaultPlatform="" defaultEnv="live-beta">
+-->
+<root mode="debug" useGrid="false" defaultBrowser="chrome" defaultBrowserVersion="" defaultPlatform="WINDOWS" defaultEnv="QA, PROD, STG">
+	<teamSetting>
+		<teamName>IBTECH Integration</teamName>
+		<environmentVerified>QA, PROD</environmentVerified>
+	</teamSetting>
+
+	<environment type="QA, PROD, STG">
+		<homePageUrl>https://advtools.morningstar.com/advisor/login/instlgn.asp?INSTID=INDDEM</homePageUrl>
+		<sleepInMillis>50000</sleepInMillis>
+		<timeOutInSeconds>120</timeOutInSeconds>
+		<retryCount>1</retryCount>
+		<server>
+			<CIHub>http://vdieprdsel042.morningstar.com:4444/wd/hub</CIHub>
+			<debugHub>http://vdieprdsel042.morningstar.com:4444/wd/hub</debugHub>
+			<node>VDIEPRDSEL048.morningstar.com</node>
+			<node>VDIEPRDSEL050.morningstar.com</node>
+			<FTPHost>vdieprdsel042.morningstar.com</FTPHost>
+			<FTPPort>21</FTPPort>
+		</server>
+		<profile>
+			<firefox></firefox>
+			<chrome></chrome>
+			<safari></safari>
+		</profile>
+		<report>
+			<emailRecipients>
+				<recipient>Nikhil.Tamhane@morningstar.com</recipient>
+				</emailRecipients>
+			<emailSender>
+				<userName>iwtintlautotester@morningstar.com</userName>
+				<password>Morningstar1379</password>
+				<fromName>IBTECH QA</fromName>
+				<host>internalmail.morningstar.com</host>
+				<port>25</port>
+			</emailSender>
+		</report>
+	</environment>
+</root>
